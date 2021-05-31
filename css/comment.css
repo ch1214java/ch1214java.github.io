@@ -13,6 +13,7 @@
   outline: none;
   background: transparent;
   font-size: 0.75em;
+  -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
 .v a {
@@ -48,27 +49,35 @@
 .v .form {
   border-radius: 0.5rem;
   border: 0.0625rem solid var(--grey-2);
-  box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--box-bg-shadow);
+  -webkit-box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--box-bg-shadow);
+          box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--box-bg-shadow);
   margin-bottom: 0.625rem;
   position: relative;
   padding: 0.625rem;
 }
 .v .form >.inner .auth-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0.3em 0.6em;
 }
 @media (max-width: 567px) {
   .v .form >.inner {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 .v .form >.inner .input {
-  flex: 1 1 27%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 27%;
+          flex: 1 1 27%;
   width: 27%;
 }
 @media (max-width: 567px) {
   .v .form >.inner .input {
-    flex: 1 1 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
     padding-right: 0;
     width: 100%;
   }
@@ -93,6 +102,8 @@
 }
 .v .form >.inner .btn-group {
   padding: 0.625rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .v .form >.inner .btn-group .i-markdown {
@@ -113,7 +124,8 @@
   font-size: 0.8125em;
   border-radius: 0.5rem;
   border: 0.0625rem solid var(--grey-2);
-  box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--box-bg-shadow);
+  -webkit-box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--box-bg-shadow);
+          box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--box-bg-shadow);
 }
 .v .form >.inner .trigger-section {
   display: none;
@@ -125,12 +137,16 @@
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 0.25rem;
+  -webkit-transition: background 0.2s ease-out, -webkit-box-shadow 0.2s ease-out;
+  transition: background 0.2s ease-out, -webkit-box-shadow 0.2s ease-out;
   transition: box-shadow 0.2s ease-out, background 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out, background 0.2s ease-out, -webkit-box-shadow 0.2s ease-out;
 }
 .v .form .smile-body li.active img,
 .v .form .smile-body img:hover {
   background: var(--grey-2);
-  box-shadow: 1px 1px 2px var(--grey-1), -1px -1px 2px var(--grey-4), inset 8px 8px 16px var(--grey-1), inset -8px -8px 16px var(--grey-3);
+  -webkit-box-shadow: 1px 1px 2px var(--grey-1), -1px -1px 2px var(--grey-4), inset 8px 8px 16px var(--grey-1), inset -8px -8px 16px var(--grey-3);
+          box-shadow: 1px 1px 2px var(--grey-1), -1px -1px 2px var(--grey-4), inset 8px 8px 16px var(--grey-1), inset -8px -8px 16px var(--grey-3);
 }
 .v .form .smile-body .smile-icons {
   border-radius: 0.5rem;
@@ -164,6 +180,7 @@
 }
 .v .form .btn .ic {
   color: var(--grey-6);
+  -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
 .v .form .btn .ic:hover {
@@ -318,6 +335,7 @@
   left: 0;
   top: 0;
   bottom: 3.15em;
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--grey-1-a0)), to(var(--grey-1)));
   background: linear-gradient(180deg, var(--grey-1-a0), var(--grey-1));
   z-index: 999;
 }
@@ -386,18 +404,22 @@
 }
 @-webkit-keyframes sk-stretchdelay {
   0%, 40%, 100% {
-    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
   }
   20% {
-    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
   }
 }
 @keyframes sk-stretchdelay {
   0%, 40%, 100% {
-    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
   }
   20% {
-    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
   }
 }
 .hljs-comment,
