@@ -2,18 +2,18 @@
 <rss version="2.0">
     <channel>
         <title>望舒</title>
-        <subtitle>subtitle</subtitle>
+        <subtitle>你尽管努力，其他的交给天意</subtitle>
         <icon>http://www.chyun888.club/images/favicon.ico</icon>
         <link>http://www.chyun888.club</link>
         <author>
           <name>望舒@</name>
         </author>
-        <description>描述123</description>
+        <description>努力</description>
         <language>zh-CN</language>
         <pubDate>Thu, 13 Aug 2020 21:45:48 +0800</pubDate>
         <lastBuildDate>Thu, 13 Aug 2020 21:45:48 +0800</lastBuildDate>
-        <category term="关键词1" />
-        <category term="关键词2" />
+        <category term="努力" />
+        <category term="加油，学习" />
         <item>
             <guid isPermalink="true">http://www.chyun888.club/2020/08/13/computer-science/note/theme-shoka-doc/special/</guid>
             <title>Step.4 主题特殊功能</title>

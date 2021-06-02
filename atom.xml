@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://www.chyun888.club</id>
     <title>望舒</title>
-    <subtitle>subtitle</subtitle>
+    <subtitle>你尽管努力，其他的交给天意</subtitle>
     <icon>http://www.chyun888.club/images/favicon.ico</icon>
     <link href="http://www.chyun888.club" />
     <author>
       <name>望舒@</name>
     </author>
     <updated>2020-08-13T13:45:48.000Z</updated>
-    <category term="关键词1" />
-    <category term="关键词2" />
+    <category term="努力" />
+    <category term="加油，学习" />
     <entry>
         <id>http://www.chyun888.club/2020/08/13/computer-science/note/theme-shoka-doc/special/</id>
         <title>Step.4 主题特殊功能</title>
